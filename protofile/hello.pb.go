@@ -199,22 +199,3 @@ var fileDescriptor_hello_59b50638614074d7 = []byte{
 	0x20, 0x6e, 0x43, 0x76, 0x8b, 0x94, 0x08, 0xaa, 0x20, 0xc4, 0x52, 0x25, 0x86, 0x24, 0x36, 0xb0,
 	0x0f, 0x8c, 0x01, 0x01, 0x00, 0x00, 0xff, 0xff, 0xeb, 0x5f, 0x20, 0xad, 0xd0, 0x00, 0x00, 0x00,
 }
-
-type server struct{}
-
-// 这里实现服务端接口中的方法。
-func (s *server) SayHello(ctx context.Context, in *pb.HelloRequest) (*pb.HelloReply, error) {
-	return &pb.HelloReply{Message: "Hello " + in.Name}, nil
-}
-
-// 创建并启动一个 gRPC 服务的过程：创建监听套接字、创建服务端、注册服务、启动服务端。
-func main() {
-	lis, err := net.Listen("tcp", port)
-	if err != nil {
-		log.Fatalf("failed to listen: %v", err)
-	}
-	s := grpc.NewServer()
-	pb.RegisterHelloServiceServer(s, &server{})
-	s.Serve(lis)
-}
-

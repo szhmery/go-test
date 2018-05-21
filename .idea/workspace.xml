@@ -3,6 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="a8b472a5-2533-4009-a02e-4c0df1db74f4" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/hello.pb.go" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/hello.proto" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/hello.proto" afterPath="$PROJECT_DIR$/protofile/hello.proto" />
+      <change beforePath="$PROJECT_DIR$/src/test.proto" afterPath="$PROJECT_DIR$/protofile/test.proto" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,18 +17,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="helloworld.go" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helloworld.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#14#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="server.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/server.go">
           <provider selected="true" editor-type-id="text-editor">
@@ -74,7 +66,7 @@
         </entry>
       </file>
       <file leaf-file-name="test.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test.proto">
+        <entry file="file://$PROJECT_DIR$/protofile/test.proto">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -83,8 +75,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="client_protobuf.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protofile/client_protobuf.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="214">
+              <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="server_protobuf.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/protofile/server_protobuf.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+              <folding>
+                <element signature="e#15#38#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="hello.proto" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/hello.proto">
+        <entry file="file://$PROJECT_DIR$/protofile/hello.proto">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="266">
               <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
@@ -93,11 +107,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.pb.go" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/hello.pb.go">
+      <file leaf-file-name="hello.pb.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protofile/hello.pb.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.pb.go" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/protofile/test.pb.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,6 +139,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>timeFormat</find>
+      <find>main</find>
       <find>SayHello</find>
     </findStrings>
     <replaceStrings>
@@ -137,6 +162,9 @@
         <option value="$PROJECT_DIR$/makeexample.go" />
         <option value="$PROJECT_DIR$/src/hello.proto" />
         <option value="$PROJECT_DIR$/hello.pb.go" />
+        <option value="$PROJECT_DIR$/src/client_protobuf.go" />
+        <option value="$PROJECT_DIR$/protofile/client_protobuf.go" />
+        <option value="$PROJECT_DIR$/protofile/server_protobuf.go" />
       </list>
     </option>
   </component>
@@ -197,6 +225,11 @@
             <path>
               <item name="awesomeProject" type="b2602c69:ProjectViewProjectNode" />
               <item name="awesomeProject" type="462c0819:PsiDirectoryNode" />
+              <item name="protofile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="awesomeProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="awesomeProject" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -211,6 +244,12 @@
     <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/protofile" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -223,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build hello.pb.go">
+  <component name="RunManager" selected="Go Build.go build client_protobuf.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -249,6 +288,14 @@
       <filePath value="$PROJECT_DIR$/client.go" />
       <directory value="$PROJECT_DIR$" />
     </configuration>
+    <configuration name="go build client_protobuf.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
+      <module name="awesomeProject" />
+      <working_directory value="$PROJECT_DIR$" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/src/client_protobuf.go" />
+      <directory value="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="go build hello.pb.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
       <module name="awesomeProject" />
       <working_directory value="$PROJECT_DIR$" />
@@ -263,14 +310,6 @@
       <go_parameters value="-i" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/makeexample.go" />
-      <directory value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="go build newexample.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
-      <module name="awesomeProject" />
-      <working_directory value="$PROJECT_DIR$" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/newexample.go" />
       <directory value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="go build server.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true">
@@ -292,17 +331,17 @@
       <item index="0" class="java.lang.String" itemvalue="Go Build.awesome" />
       <item index="1" class="java.lang.String" itemvalue="Go Build.go build client.go" />
       <item index="2" class="java.lang.String" itemvalue="Go Build.go build server.go" />
-      <item index="3" class="java.lang.String" itemvalue="Go Build.go build newexample.go" />
-      <item index="4" class="java.lang.String" itemvalue="Go Build.go build makeexample.go" />
-      <item index="5" class="java.lang.String" itemvalue="Go Build.go build hello.pb.go" />
+      <item index="3" class="java.lang.String" itemvalue="Go Build.go build makeexample.go" />
+      <item index="4" class="java.lang.String" itemvalue="Go Build.go build hello.pb.go" />
+      <item index="5" class="java.lang.String" itemvalue="Go Build.go build client_protobuf.go" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Go Build.go build hello.pb.go" />
-        <item index="1" class="java.lang.String" itemvalue="Go Build.go build client.go" />
-        <item index="2" class="java.lang.String" itemvalue="Go Build.go build server.go" />
-        <item index="3" class="java.lang.String" itemvalue="Go Build.go build makeexample.go" />
-        <item index="4" class="java.lang.String" itemvalue="Go Build.go build newexample.go" />
+        <item index="0" class="java.lang.String" itemvalue="Go Build.go build client_protobuf.go" />
+        <item index="1" class="java.lang.String" itemvalue="Go Build.go build hello.pb.go" />
+        <item index="2" class="java.lang.String" itemvalue="Go Build.go build client.go" />
+        <item index="3" class="java.lang.String" itemvalue="Go Build.go build server.go" />
+        <item index="4" class="java.lang.String" itemvalue="Go Build.go build makeexample.go" />
       </list>
     </recent_temporary>
   </component>
@@ -311,12 +350,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="724" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23828755" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30528054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30528054" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32809773" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -413,7 +453,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.proto">
+    <entry file="file://$PROJECT_DIR$/protofile/test.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -421,7 +461,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/hello.proto">
+    <entry file="file://$PROJECT_DIR$/protofile/hello.proto">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
           <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
@@ -666,22 +706,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/hello.proto">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/time/time.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -720,9 +744,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.pb.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="468">
+          <caret line="219" column="0" lean-forward="true" selection-start-line="219" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protofile/hello.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protofile/hello.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="1" lean-forward="false" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protofile/hello.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protofile/test.pb.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protofile/test.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protofile/client_protobuf.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protofile/server_protobuf.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="51" column="31" lean-forward="true" selection-start-line="51" selection-start-column="31" selection-end-line="51" selection-end-column="31" />
+          <folding>
+            <element signature="e#15#38#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
