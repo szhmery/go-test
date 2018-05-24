@@ -35,4 +35,5 @@ func main(){
 
 	// 输出结果
 	fmt.Println(*umData.Id, "  ", *umData.Str, "  ", *umData.Opt)
+	println(*umData.Id, "  ", *umData.Str, "  ", *umData.Opt)
 }
