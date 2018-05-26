@@ -1,11 +1,4 @@
-
-
-package src
-import (
-	"net"
-	"os"
-)
-
+package main
 
 import (
 "fmt"

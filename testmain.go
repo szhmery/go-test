@@ -1,9 +1,9 @@
-package prototest
+package main
 // main.go
 
 import (
 "fmt"
-t "./test"
+t "./src/test"
 "github.com/golang/protobuf/proto"
 )
 

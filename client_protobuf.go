@@ -1,11 +1,12 @@
-package src
+package main
 
 import (
 	"bufio"
 	"fmt"
 	"net"
 	"os"
-	stProto "proto"
+
+	stProto "protofile"
 	"time"
 
 	//protobuf编解码库,下面两个库是相互兼容的，可以使用其中任意一个

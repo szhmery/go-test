@@ -1,4 +1,4 @@
-package src
+package main
 
 import (
 "log"
@@ -12,7 +12,7 @@ import (
 
 func main() {
 	// 创建一个消息 Test
-	fmt.Print("test")
+	println("test")
 	test := &prototest.Test{
 		// 使用辅助函数设置域的值
 		Label: proto.String("hello"),
@@ -22,7 +22,7 @@ func main() {
 		},
 	}
 
-	fmt.Printf("Label:%s Type:%d\n", test.GetLabel(), test.GetType())
+	fmt.Printf("Label:%s Type:%d\n", test.GetLabel(), test.GetType(),*test.GetOptionalgroup().RequiredField)
 
 	*(test.Label) = "hello go"
 	*(test.Type) = 18
